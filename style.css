@@ -797,6 +797,7 @@ footer ul li a:hover {
     .service-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
 }
 
 @media(max-width:500px) {
@@ -821,6 +822,9 @@ footer ul li a:hover {
 
     .navbar.active {
         display: block;
+    }
+    .service-box{
+        height: 313px;
     }
 
     .navbar a {
@@ -872,8 +876,8 @@ footer ul li a:hover {
     }
 
     .About p {
-        font-size: 19px;
-        line-height: 35px;
+        font-size: 14px;
+        line-height: 30px;
 
     }
 
